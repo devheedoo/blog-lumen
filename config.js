@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  url: 'https://devheedoo.github.io',
+  title: 'Blog by Heedo Kim',
+  subtitle: 'Heedo\'s Dev Blog',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   menu: [
     {
       label: 'Articles',
@@ -23,14 +23,14 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Heedo Kim',
+    photo: '/HeedoKim.jpeg',
+    bio: 'Junior Web Developer',
     contacts: {
-      email: '#',
+      email: 'devheedoo@gmail.com',
       telegram: '#',
-      twitter: '#',
-      github: '#',
+      twitter: 'https://twitter.com/devheedoo',
+      github: 'https://github.com/devheedoo',
       rss: '#',
       vkontakte: '#'
     }
