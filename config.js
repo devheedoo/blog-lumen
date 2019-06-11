@@ -5,9 +5,9 @@ module.exports = {
   title: 'Blog by Heedo Kim',
   subtitle: 'Heedo\'s Dev Blog',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'heedos-dev-blog',
   postsPerPage: 4,
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'UA-83684071-3',
   menu: [
     {
       label: 'Articles',
