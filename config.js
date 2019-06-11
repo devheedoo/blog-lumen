@@ -25,12 +25,12 @@ module.exports = {
   author: {
     name: 'Heedo Kim',
     photo: '/HeedoKim.jpeg',
-    bio: 'Junior Web Developer',
+    bio: '글로 정리하면서 내 지식으로 만들기',
     contacts: {
       email: 'devheedoo@gmail.com',
       telegram: '#',
-      twitter: 'https://twitter.com/devheedoo',
-      github: 'https://github.com/devheedoo',
+      twitter: 'devheedoo',
+      github: 'devheedoo',
       rss: '#',
       vkontakte: '#'
     }
