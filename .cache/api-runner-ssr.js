@@ -6,13 +6,13 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/heedo/blog-lumen/node_modules/gatsby-plugin-google-gtag/gatsby-ssr'),
-      options: {"plugins":[],"trackingIds":["UA-73379983-2"],"pluginConfig":{"head":true}},
+      options: {"plugins":[],"trackingIds":[""],"pluginConfig":{"head":true}},
     },{
       plugin: require('/Users/heedo/blog-lumen/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[],"query":"\n          {\n            site {\n              siteMetadata {\n                siteUrl: url\n              }\n            }\n            allSitePage(\n              filter: {\n                path: { regex: \"/^(?!/404/|/404.html|/dev-404-page/)/\" }\n              }\n            ) {\n              edges {\n                node {\n                  path\n                }\n              }\n            }\n          }\n        ","output":"/sitemap.xml"},
     },{
       plugin: require('/Users/heedo/blog-lumen/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Blog by John Doe","short_name":"Blog by John Doe","start_url":"/","background_color":"#FFF","theme_color":"#F7A046","display":"standalone","icon":"static/photo.jpg"},
+      options: {"plugins":[],"name":"Heedo's Dev Blog","short_name":"Heedo's Dev Blog","start_url":"/","background_color":"#FFF","theme_color":"#F7A046","display":"standalone","icon":"static/HeedoKim.jpeg"},
     },{
       plugin: require('/Users/heedo/blog-lumen/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},

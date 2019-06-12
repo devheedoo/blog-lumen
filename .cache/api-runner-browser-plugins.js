@@ -9,7 +9,7 @@ module.exports = [{
       options: {"plugins":[],"modulePath":"/Users/heedo/blog-lumen/src/cms/index.js"},
     },{
       plugin: require('/Users/heedo/blog-lumen/node_modules/gatsby-plugin-google-gtag/gatsby-browser.js'),
-      options: {"plugins":[],"trackingIds":["UA-73379983-2"],"pluginConfig":{"head":true}},
+      options: {"plugins":[],"trackingIds":[""],"pluginConfig":{"head":true}},
     },{
       plugin: require('/Users/heedo/blog-lumen/node_modules/gatsby-plugin-offline/gatsby-browser.js'),
       options: {"plugins":[]},

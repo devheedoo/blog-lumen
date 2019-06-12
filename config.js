@@ -2,7 +2,7 @@
 
 module.exports = {
   url: 'https://devheedoo.github.io',
-  title: 'Blog by Heedo Kim',
+  title: 'Heedo\'s Dev Blog',
   subtitle: 'Heedo\'s Dev Blog',
   copyright: '© All rights reserved.',
   disqusShortname: '',
@@ -29,8 +29,8 @@ module.exports = {
     contacts: {
       email: 'devheedoo@gmail.com',
       telegram: '#',
-      twitter: 'https://twitter.com/devheedoo',
-      github: 'https://github.com/devheedoo',
+      twitter: 'devheedoo',
+      github: 'devheedoo',
       rss: '#',
       vkontakte: '#'
     }
