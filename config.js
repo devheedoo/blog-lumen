@@ -5,9 +5,9 @@ module.exports = {
   title: 'Heedo\'s Dev Blog',
   subtitle: 'Heedo\'s Dev Blog',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'heedos-dev-blog',
   postsPerPage: 4,
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'UA-83684071-3',
   menu: [
     {
       label: 'Articles',
@@ -25,7 +25,7 @@ module.exports = {
   author: {
     name: 'Heedo Kim',
     photo: '/HeedoKim.jpeg',
-    bio: 'Junior Web Developer',
+    bio: '글로 정리하면서 내 지식으로 만들기',
     contacts: {
       email: 'devheedoo@gmail.com',
       telegram: '#',
